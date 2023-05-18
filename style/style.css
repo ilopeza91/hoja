@@ -148,6 +148,7 @@ body{
   
   .contenedor-certi {
     display: flex;
+    width:40%;
     animation: scroll-certificaciones 5s linear alternate-reverse;
     justify-content: center;
     align-items: center;
