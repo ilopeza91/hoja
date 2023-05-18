@@ -140,37 +140,14 @@ body{
 
 
 
-/* Animacion Certificaciones */
-.certifi {
-    width: 60%;
-    overflow: hidden;
-  }
-  
-  .contenedor-certi {
-    display: flex;
-    width:40%;
-    animation: scroll-certificaciones 5s linear alternate-reverse;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
-  .certifi img {
-    flex: 0 0 20%;
-    width: 30%;
-    height: auto;
-    padding: 10px;
 
-  }
+ /*  Certificaciones */
+.contenedor-certificaciones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-  @keyframes scroll-certificaciones {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-70%);
-    }
-  }
+}
 
 
   /*Pie de Pagina*/
